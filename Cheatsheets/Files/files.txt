@@ -1,0 +1,33 @@
+ls -a show hidden files
+ls -aF show file type
+ls -lrt list view reverse time sort
+type ls
+ls -lhrt show sizes of file
+ls -ld /etc just lists the etc directory
+ls -l $(tty)
+
+lsblk
+ls -l $(which java)
+
+cp source targer(. is current dir) 
+touch one/file{1..5} create files in one folder file1, file2, file3, file4, file5
+cp -R one two copy recursive folder with files
+mkdir sales/test doesn't work
+mkdir -p sales/test include the parent
+rmdir test
+rmdir -rm sales forcing and recur
+mkdir -m 700 test make dir with permission
+
+wc -l /etc/services total services
+less /etc/services
+page up/page down
+/http to search down
+?http to search up
+
+head -n 3 /etc/services top 3 lines
+tail -n 3 /etc/services bottom 3
+
+cat /etc/service | grep http
+grep  '\bserver\b' ntp.conf   word boundary space new line or -
+grep -E 'ion$' /etc/services search ending with ion
+grep -E '^ses' /etc/services search starting with ses
