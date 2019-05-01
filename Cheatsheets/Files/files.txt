@@ -18,6 +18,8 @@ rmdir test
 rmdir -rm sales forcing and recur
 mkdir -m 700 test make dir with permission
 
+rm -rf /path/to/folder remove all files in the folder
+
 wc -l /etc/services total services
 less /etc/services
 page up/page down
@@ -31,3 +33,7 @@ cat /etc/service | grep http
 grep  '\bserver\b' ntp.conf   word boundary space new line or -
 grep -E 'ion$' /etc/services search ending with ion
 grep -E '^ses' /etc/services search starting with ses
+
+readlink -f $(which java) - check location of java
+
+sudo ufw allow 8080/tcp 
