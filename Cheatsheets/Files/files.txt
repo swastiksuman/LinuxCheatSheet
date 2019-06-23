@@ -37,3 +37,13 @@ grep -E '^ses' /etc/services search starting with ses
 readlink -f $(which java) - check location of java
 
 sudo ufw allow 8080/tcp 
+
+
+----------------Tomcat----------------
+netstat -lnp | grep 80 - Check port 80
+
+----------------Apache----------------
+ifconfig -> inet addr
+/etc/init.d/apache2 stop
+netstat -an | more
+

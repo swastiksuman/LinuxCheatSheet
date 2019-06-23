@@ -1,0 +1,23 @@
+/ Root Directory
+
+
+/bin Essential User binaries
+
+
+/boot Static Boot Files
+
+Files Needed to boot the system. Boot loader configuration isn't located here, they're in /etc folder with other configuration files.
+
+/dev Device Files
+
+Linux exposes devices as files. These aren't actual files, but they appear as files. For eg, /dev/sda represents the first SATA drive in system.
+
+/etc Configuration Files
+
+The /etc directory contains configuration files, which can generally be edited by hand in a text editor. Note that the /etc/ directory contains system-wide configuration files – user-specific configuration files are located in each user’s home directory.
+
+/root – Root Home Directory
+
+The /root directory is the home directory of the root user. Instead of being located at /home/root, it’s located at /root. This is distinct from /, which is the system root directory.
+
+
