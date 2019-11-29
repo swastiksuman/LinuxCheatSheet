@@ -38,7 +38,12 @@ readlink -f $(which java) - check location of java
 
 sudo ufw allow 8080/tcp 
 
+env -- gives environment variables
 
+---------- Hardware ---------------
+df -ht ext4 (h is for GB)
+lsblk | grep sd - lists all devices attached
+mount /dev/sdb2 /media/newplace/ - mounts device partition /dev/sdb2 to /media/newplace(location in system)
 
 ----------------Tomcat----------------
 netstat -lnp | grep 80 - Check port 80
