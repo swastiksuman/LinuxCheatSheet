@@ -20,4 +20,15 @@ The /etc directory contains configuration files, which can generally be edited b
 
 The /root directory is the home directory of the root user. Instead of being located at /home/root, it’s located at /root. This is distinct from /, which is the system root directory.
 
+/lib Shared libraries and kernel modules.
+
+/opt add on application softwares
+
+/sbin system binary files
+
+/tmp temporary files
+
+/var
+
+/proc virtual file systems documenting the kernel
 
